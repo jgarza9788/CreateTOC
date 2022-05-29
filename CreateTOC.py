@@ -6,6 +6,7 @@ import sys,re
 
 file = ''
 # file = r'C:\Users\JGarza\Desktop\README - Copy.md'
+# file = r'C:\Users\JGarza\GitHub\VAERS\README.md'
 
 try:
     file = sys.argv[1]
@@ -62,4 +63,4 @@ with open(file,'w+') as f:
 
 
 
-# input('**press enter to continue**\n')
+#input('**press enter to continue**\n')
